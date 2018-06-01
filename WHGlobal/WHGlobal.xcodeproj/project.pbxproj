@@ -17,6 +17,7 @@
 		E19EA4C920C1171500D8F1FD /* WHGlobalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E19EA4C820C1171500D8F1FD /* WHGlobalUITests.m */; };
 		E19EA4D820C1178300D8F1FD /* WHGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = E19EA4D720C1178300D8F1FD /* WHGlobal.m */; };
 		E19EA4DB20C11B7B00D8F1FD /* NSString+WHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E19EA4DA20C11B7B00D8F1FD /* NSString+WHAdd.m */; };
+		E19EA4DF20C121C100D8F1FD /* NSDate+WHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E19EA4DE20C121C100D8F1FD /* NSDate+WHAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		E19EA4D720C1178300D8F1FD /* WHGlobal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHGlobal.m; sourceTree = "<group>"; };
 		E19EA4D920C11B7B00D8F1FD /* NSString+WHAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+WHAdd.h"; sourceTree = "<group>"; };
 		E19EA4DA20C11B7B00D8F1FD /* NSString+WHAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+WHAdd.m"; sourceTree = "<group>"; };
+		E19EA4DD20C121C100D8F1FD /* NSDate+WHAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+WHAdd.h"; sourceTree = "<group>"; };
+		E19EA4DE20C121C100D8F1FD /* NSDate+WHAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WHAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +149,8 @@
 				E19EA4D720C1178300D8F1FD /* WHGlobal.m */,
 				E19EA4D920C11B7B00D8F1FD /* NSString+WHAdd.h */,
 				E19EA4DA20C11B7B00D8F1FD /* NSString+WHAdd.m */,
+				E19EA4DD20C121C100D8F1FD /* NSDate+WHAdd.h */,
+				E19EA4DE20C121C100D8F1FD /* NSDate+WHAdd.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -284,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E19EA4A920C1171500D8F1FD /* ViewController.m in Sources */,
+				E19EA4DF20C121C100D8F1FD /* NSDate+WHAdd.m in Sources */,
 				E19EA4D820C1178300D8F1FD /* WHGlobal.m in Sources */,
 				E19EA4B420C1171500D8F1FD /* main.m in Sources */,
 				E19EA4A620C1171500D8F1FD /* AppDelegate.m in Sources */,
